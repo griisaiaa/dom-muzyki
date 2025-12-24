@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /admin.html
+Disallow: /login/
+Disallow: /login.html
+Disallow: /register/
+Disallow: /register.html
+Disallow: /account/
+Disallow: /account.html
+Disallow: /cgi-bin/
+Disallow: /*?*
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /search/
+Disallow: /*/print/
+
+# Карты сайта
+Sitemap: https://dom-muzyki.ru/sitemap.xml
+Sitemap: https://dom-muzyki.ru/sitemap-image.xml
+
+# Основное зеркало
+Host: https://dom-muzyki.ru
+
+# Задержка сканирования
+Crawl-delay: 2
