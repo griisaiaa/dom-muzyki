@@ -16,8 +16,6 @@ Disallow: /*.docx$
 Disallow: /search/
 Disallow: /*/print/
 
-https://griisaiaa.github.io/yandex_6eb1f6966d7ba9fa.html
-
 # Карты сайта
 Sitemap:https://griisaiaa.github.io/dom-muzyki/sitemap.xml
 
@@ -27,3 +25,4 @@ Host: Host: dom-muzyki.ru
 # Задержка сканирования
 
 Crawl-delay: 2
+
