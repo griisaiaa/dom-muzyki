@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дом Музыки - Админ-панель</title>
+    <link rel="stylesheet" href="style.min.css">
+    <style>
+        /* Дополнительные стили для админ-панели, если нужны */
+        .admin-intro {
+            background-color: #ffeeba; /* Легкий желтый для предупреждения */
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ffc107;
+        }
+        .admin-sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .admin-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            background-color: #fff;
+            transition: transform 0.2s;
+        }
+        .admin-card:hover {
+            transform: translateY(-5px);
+        }
+        .admin-card h3 {
+            color: #28a745; /* Зеленый для акцента */
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .admin-card .btn {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+        .admin-card .btn:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="img/logo.jpg" alt="Логотип Дома Музыки">
+                <span>Дом Музыки</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="login.html">Вход</a></li>
+                    <li><a href="register.html">Регистрация</a></li>
+                    <li><a href="account.html">Личный кабинет</a></li>
+                    <li><a href="admin.html">Админ-панель</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основное содержимое страницы Админ-панель -->
+    <div class="container">
+        <div id="admin-page" class="main-content">
+            <h1>Админ-панель</h1>
+            <div class="admin-intro">
+                <p><strong>Внимание:</strong> Эта страница предназначена только для администраторов. Доступ требует соответствующих прав.</p>
+            </div>
+
+            <div class="admin-sections">
+                <div class="admin-card">
+                    <h3>Управление товарами</h3>
+                    <p>Добавление, редактирование и удаление товаров в каталоге.</p>
+                    <a href="#" class="btn">Перейти</a>
+                </div>
+                <div class="admin-card">
+                    <h3>Управление заказами</h3>
+                    <p>Просмотр, обработка и изменение статусов заказов.</p>
+                    <a href="#" class="btn">Перейти</a>
+                </div>
+                <div class="admin-card">
+                    <h3>Управление пользователями</h3>
+                    <p>Редактирование данных пользователей, блокировка аккаунтов.</p>
+                    <a href="#" class="btn">Перейти</a>
+                </div>
+                <div class="admin-card">
+                    <h3>Статистика</h3>
+                    <p>Просмотр отчетов о продажах, посещаемости и других метриках.</p>
+                    <a href="#" class="btn">Перейти</a>
+                </div>
+                <div class="admin-card">
+                    <h3>Настройки сайта</h3>
+                    <p>Изменение общих параметров сайта, контента страниц.</p>
+                    <a href="#" class="btn">Перейти</a>
+                </div>
+                <div class="admin-card">
+                    <h3>Логи системы</h3>
+                    <p>Просмотр системных журналов и ошибок.</p>
+                    <a href="#" class="btn">Перейти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>О компании</h3>
+                <p>Дом Музыки - ведущий поставщик музыкальных инструментов с 2005 года. Мы предлагаем только качественную продукцию от проверенных производителей.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <ul>
+                    <li>Адрес: г. Москва, ул. Музыкальная, 15</li>
+                    <li>Телефон: +7 (495) 123-45-67</li>
+                    <li>Email: info@dom-muzyki.ru</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Полезные ссылки</h3>
+                <ul>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Гарантия и возврат</a></li>
+                    <li><a href="#">Блог о музыке</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2023 Дом Музыки. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
+    

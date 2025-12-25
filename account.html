@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дом Музыки - Личный кабинет</title>
+    <link rel="stylesheet" href="style.min.css">
+    <style>
+        /* Дополнительные стили для личного кабинета, если нужны */
+        .profile-info {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+        .profile-info h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .profile-info p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .profile-info strong {
+            color: #555;
+        }
+        .account-sections {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .account-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            width: 280px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        .account-card:hover {
+            transform: translateY(-5px);
+        }
+        .account-card h3 {
+            color: #007bff;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .account-card .btn {
+            display: inline-block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="img/logo.jpg" alt="Логотип Дома Музыки">
+                <span>Дом Музыки</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="login.html">Вход</a></li>
+                    <li><a href="register.html">Регистрация</a></li>
+                    <li><a href="account.html">Личный кабинет</a></li>
+                    <li><a href="admin.html">Админ-панель</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основное содержимое страницы Личный кабинет -->
+    <div class="container">
+        <div id="account-page" class="main-content">
+            <h1>Личный кабинет</h1>
+            <p>Добро пожаловать в ваш личный кабинет, здесь вы можете управлять своими данными, заказами и настройками.</p>
+
+            <div class="profile-info">
+                <h2>Ваши данные:</h2>
+                <p><strong>Имя пользователя:</strong> Пользователь</p>
+                <p><strong>Email:</strong> user@example.com</p>
+                <p><strong>Телефон:</strong> +7 (XXX) XXX-XX-XX</p>
+                <a href="#" class="btn">Редактировать профиль</a>
+            </div>
+
+            <div class="account-sections">
+                <div class="account-card">
+                    <h3>Мои заказы</h3>
+                    <p>Просмотр истории ваших покупок и статуса текущих заказов.</p>
+                    <a href="#" class="btn">Посмотреть заказы</a>
+                </div>
+                <div class="account-card">
+                    <h3>Настройки</h3>
+                    <p>Изменение пароля, предпочтений и уведомлений.</p>
+                    <a href="#" class="btn">Перейти к настройкам</a>
+                </div>
+                <div class="account-card">
+                    <h3>Избранное</h3>
+                    <p>Список товаров, которые вы добавили в избранное.</p>
+                    <a href="#" class="btn">Мое избранное</a>
+                </div>
+                <div class="account-card">
+                    <h3>Выход</h3>
+                    <p>Завершить текущий сеанс в личном кабинете.</p>
+                    <a href="login.html" class="btn" style="background-color: #dc3545;">Выйти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Подвал сайта -->
+<footer>
+    <div class="container footer-content">
+        <div class="footer-section">
+            <h3>О компании</h3>
+            <p>Дом Музыки - ведущий поставщик музыкальных инструментов с 2005 года. Мы предлагаем только качественную продукцию от проверенных производителей.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Контакты</h3>
+            <ul>
+                <li>Адрес: г. Москва, ул. Музыкальная, 15</li>
+                <li>Телефон: +7 (495) 123-45-67</li>
+                <li>Email: info@dom-muzyki.ru</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Полезные ссылки</h3>
+            <ul>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Гарантия и возврат</a></li>
+                <li><a href="#">Блог о музыке</a></li>
+                <li><a href="#">Вакансии</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container copyright">
+        <p>&copy; 2023 Дом Музыки. Все права защищены.</p>
+    </div>
+</footer>
+</body>
+</html>
