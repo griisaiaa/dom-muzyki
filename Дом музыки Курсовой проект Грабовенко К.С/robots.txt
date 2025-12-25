@@ -17,7 +17,7 @@ Disallow: /search/
 Disallow: /*/print/
 
 # Карты сайта
-Sitemap: https://dom-muzyki.ru/sitemap.xml
+Sitemap: https://griisaiaa.github.io/dom-muzyki/
 Sitemap: https://dom-muzyki.ru/sitemap-image.xml
 
 # Основное зеркало
