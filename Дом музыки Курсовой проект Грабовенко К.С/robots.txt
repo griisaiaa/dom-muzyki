@@ -17,12 +17,10 @@ Disallow: /search/
 Disallow: /*/print/
 
 # Карты сайта
-Sitemap: https://griisaiaa.github.io/dom-muzyki/
+Sitemap:https://griisaiaa.github.io/dom-muzyki/sitemap.xml
 
 # Основное зеркало
-Host: https://griisaiaa.github.io/dom-muzyki/
+Host: Host: dom-muzyki.ru
 
 # Задержка сканирования
-
 Crawl-delay: 2
-
