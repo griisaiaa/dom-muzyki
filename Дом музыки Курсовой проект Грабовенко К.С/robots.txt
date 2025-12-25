@@ -20,8 +20,9 @@ Disallow: /*/print/
 Sitemap: https://griisaiaa.github.io/dom-muzyki/
 
 # Основное зеркало
-Host: https://dom-muzyki.ru
+Host: https://griisaiaa.github.io/dom-muzyki/
 
 # Задержка сканирования
 
 Crawl-delay: 2
+
